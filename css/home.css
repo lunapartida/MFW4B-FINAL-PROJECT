@@ -1,0 +1,133 @@
+/* astrid should be at the very top and is the styling for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is the start of my navigation styles*/
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 255, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.logo {
+   float: left;
+   height: 100px;
+   width: 100px;
+} 
+
+nav ul {
+    font-family: 'Vidaloka', serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 40px 35px;
+}
+
+nav ul li a {
+    color: black;
+    text-shadow: 2px 2px white;
+    border-radius: 15px;
+     font-weight: bolder;
+     font-size: 20px;
+     padding: 37px;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+
+ nav ul li a:hover {
+     color: rgb(0, 255, 0);
+     text-shadow: 2px 2px white);
+     background-color: black;
+ }
+
+ /* This is the end of the navigation css */
+
+ /* body section */
+
+ body{
+    background-color: black;
+ }
+ /* end of body section */
+
+  /* header section */
+
+  /* header{
+    font-size: 100px;
+    text-align: center;
+    color: limegreen;
+    margin: 50px;
+  } */
+
+header #demotext {
+    color: #FFFFFF;
+    background: #000000;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 170px;
+    text-align: center;
+    margin: 70px;
+}
+
+ /* main section */
+
+ main{
+    width: 100%;
+    height: 1000px;
+ }
+
+
+ /* begining of footer */
+footer {
+    font-family: 'Sorts Mill Goudy', serif;
+    height: 190px;
+    background-color: rgb(0, 255, 0);
+    color:black;
+    text-align: center;
+    clear:both;
+}
+
+footer .columnfooter {
+    float: left;
+    width: 50%;
+    margin-top: 3.5rem;
+}
+
+footer .columnfooter a {
+    color: rgb(81, 145, 100);
+    text-decoration: none;
+}
+
+footer .columnfooter a:hover{
+    color: rgb(113, 205, 194);
+}
+
+footer .row {
+    content: "";
+    clear: both;
+    text-align: center;
+
+} 
+footer .fab {
+    color: rgb(81, 145, 100);
+
+}
+footer .fab:hover{
+    color:rgb(113, 205, 194);
+}
+a:-webkit-any-link {
+    color: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* end of footer */
